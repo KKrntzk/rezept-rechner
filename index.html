@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicken Piccata e Rigatoni</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="./Infos/fonts/fonts.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="./Infos/img/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="abc">
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html"
+              ><img
+                src="./Infos/img/logo.png"
+                alt="Kochwelt Logo"
+                class="logo-img"
+            /></a>
+          </div>
+          <div class="nav-container">
+            <input type="checkbox" id="menuToggle" class="menu-toggle" />
+            <label for="menuToggle" class="hamburger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <nav class="desktop-nav">
+              <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Start</a></li>
+                <li>
+                  <a href="recipe.html" class="nav-link">Rezept des Tages</a>
+                </li>
+                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+                <li><a href="impressum.html" class="nav-link">Impressum</a></li>
+              </ul>
+            </nav>
+            <nav class="mobile-nav">
+              <ul class="mobile-menu">
+                <li><a href="index.html" class="mobile-link">Start</a></li>
+                <li>
+                  <a href="recipe.html" class="mobile-link">Rezept des Tages</a>
+                </li>
+                <li><a href="kontakt.html" class="mobile-link">Kontakt</a></li>
+                <li>
+                  <a href="impressum.html" class="mobile-link">Impressum</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-recipe">
+        <section class="top_section">
+          <header class="top1">
+            <h2 class="mobile-sec-1-h2">Chicken Piccata e Rigatoni</h2>
+            <img
+              class="top_section_img"
+              src="./Infos/img/chickenpiccata.png"
+              alt=""
+            />
+          </header>
+          <div class="meta1">
+            <div class="meta2">
+              <div class="left">
+                <img src="./Infos/img/icons/clock-regular.svg" alt="" />
+              </div>
+              <div class="right">15 Min.</div>
+            </div>
+            <div class="meta2">
+              <div class="left">
+                <img src="./Infos/img/icons/brain-solid.svg" alt="" />
+              </div>
+              <div class="right">medium</div>
+            </div>
+            <div class="meta2">
+              <div class="left">
+                <img src="./Infos/img/icons/calendar-alt-regular.svg" alt="" />
+              </div>
+              <div class="right">16.10.2025</div>
+            </div>
+          </div>
+          <div class="seperator"></div>
+        </section>
+
+        <section class="ingredient-table">
+          <form class="form-recipe" action="">
+            <label class="label-recipe" for="portions">Zutaten für</label>
+            <input
+              placeholder="4"
+              class="inputnmb"
+              id="portions"
+              type="number"
+              min="1"
+              required
+            />
+            <input class="inputbtn" type="submit" value="Portionen" required />
+          </form>
+          <div>
+            <table cellspacing="0">
+              <tr data-quantity="2" data-unit="">
+                <td class="data-quantity">2</td>
+                <td class="ingredient">Hähnchenbrust</td>
+              </tr>
+              <tr data-quantity="300" data-unit="g">
+                <td class="data-quantity">300g</td>
+                <td class="ingredient">Rigatoni</td>
+              </tr>
+              <tr data-quantity="50" data-unit="g">
+                <td class="data-quantity">50g</td>
+                <td class="ingredient">Kapern</td>
+              </tr>
+              <tr data-quantity="1" data-unit="">
+                <td class="data-quantity">1</td>
+                <td class="ingredient">Zitrone</td>
+              </tr>
+              <tr data-quantity="2" data-unit="">
+                <td class="data-quantity">2</td>
+                <td class="ingredient">Chilis</td>
+              </tr>
+              <tr data-quantity="2" data-unit="">
+                <td class="data-quantity">2</td>
+                <td class="ingredient">Schalotten</td>
+              </tr>
+              <tr data-quantity="1" data-unit="Zehe">
+                <td class="data-quantity">1 Zehe</td>
+                <td class="ingredient">Knoblauch</td>
+              </tr>
+              <tr data-quantity="100" data-unit="ml">
+                <td class="data-quantity">100ml</td>
+                <td class="ingredient">Weißwein</td>
+              </tr>
+              <tr data-quantity="100" data-unit="ml">
+                <td class="data-quantity">100ml</td>
+                <td class="ingredient">Hühnerfond</td>
+              </tr>
+              <tr data-quantity="150" data-unit="g">
+                <td class="data-quantity">150g</td>
+                <td class="ingredient">Butter</td>
+              </tr>
+              <tr data-quantity="50" data-unit="g">
+                <td class="data-quantity">50g</td>
+                <td class="ingredient">geriebener Parmesan</td>
+              </tr>
+              <tr data-quantity="" data-unit="">
+                <td class="data-quantity"></td>
+                <td class="ingredient">Mehl</td>
+              </tr>
+              <tr data-quantity="" data-unit="">
+                <td class="data-quantity"></td>
+                <td class="ingredient">Petersilie</td>
+              </tr>
+              <tr data-quantity="" data-unit="">
+                <td class="data-quantity"></td>
+                <td class="ingredient">Salz & Pfeffer</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section class="preparation">
+          <h2>Zubereitung</h2>
+          <div class="meta1">
+            <div class="meta2">
+              <div class="left">
+                <img src="./Infos/img/icons/clock-regular.svg" alt="" />
+              </div>
+              <div class="right">ca. 15 Minuten</div>
+            </div>
+            <div class="meta2">
+              <div class="left">
+                <img src="./Infos/img/icons/clock-regular.svg" alt="" />
+              </div>
+              <div class="right">Gesamtzeit ca. 30 Minuten</div>
+            </div>
+          </div>
+          <p>
+            Hähnchenbrust quer halbieren und in einer Mischung aus Mehl,
+            Parmesan, Knoblauch, Salz und Pfeffer wenden. Parallel Rigatoni wie
+            vom Hersteller empfohlen kochen. Dann die bestäubten Hähnchenfilets
+            in einer Pfanne mit Butter und Olivenöl scharf von beiden Seiten
+            anbraten. Anschließend Fleisch aus der Pfanne entfernen und in der
+            gleichen Pfanne klein gehackte Schalotten, Knoblauch und Chili
+            anschwitzen. Mit Weißwein ablöschen, Kapern, Zitronensaft und
+            Hühnerbrühe hinzugeben. Aufköcheln lassen und das Fleisch wieder
+            zurück in die Pfanne geben. Mit Stücken kalter Butter das ganze zu
+            einer cremigen Soße unter mehrfachem schwenken der Pfanne emulgieren
+            lassen. Anrichten mit den gekochten Rigatoni , Petersilie und einer
+            Zitronenscheibe zum Finish.
+          </p>
+          <h3>Rezept erstellt von</h3>
+          <div class="credits">
+            <img
+              class="profile-pic"
+              src="./Infos/img/profilepic-kelly.png"
+              alt=""
+            />
+            <p>Kelly</p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <a href="https://web.whatsapp.com/" target="_blank"
+        ><img src="./Infos/img/whatsapp_logo.png" alt="Whatsapp Logo"
+      /></a>
+      <a id="a" href="https://www.instagram.com/" target="_blank"
+        ><img
+          src="./Infos/img/Bildschirmfoto 2025-10-20 um 23.25.51.png"
+          alt="Instagram Logo"
+      /></a>
+    </footer>
+  </body>
+</html>
