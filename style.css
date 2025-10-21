@@ -91,7 +91,7 @@ body {
   display: none;
 }
 
-.contact-container {
+/* .contact-container {
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -169,7 +169,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 1px;
   background: linear-gradient(to right, rgb(0, 128, 0), rgb(0, 100, 0));
-}
+} */
 /* Header Section end*/
 
 h2 {
@@ -192,7 +192,7 @@ main {
   align-items: center;
   width: 100%;
 }
-
+/* 
 #section-1 {
   height: 400px;
   max-width: 1200px;
@@ -298,13 +298,13 @@ button:hover {
   width: 180px;
   object-fit: cover;
   border-radius: 10px;
-}
+} */
 
 /* Kelly Section end*/
 
 /* Gr. Section is starting */
 
-.info12 {
+/* .info12 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,7 +376,7 @@ button:hover {
   border-radius: 50%;
   background-color: rgb(255, 0, 0);
   display: flex;
-}
+} */
 
 /* Gr. Section ended */
 
@@ -870,26 +870,6 @@ footer #a img:hover {
   padding-right: 20px;
 }
 
-/*
-.input-section {
-  display: flex;
-  align-items: center;
-  padding-bottom: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.input-recipe-people {
-  width: 180px;
-  height: 35px;
-  border-radius: 5px;
-  margin-left: 16px;
-}
-
-input::placeholder {
-  font-weight: bold;
-}
-*/
 table {
   width: 100%;
 }
