@@ -1,6 +1,5 @@
 function calculateIngredientQuantity() {
   let multiplier = parseFloat(document.getElementById("portions").value);
-  console.log(multiplier);
   const rows = document.getElementsByClassName("ingredient-quantity");
   const defaultPortions = document
     .getElementById("portions")
