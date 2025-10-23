@@ -102,65 +102,71 @@
               min="1"
               required
             />
-            <input class="inputbtn" type="submit" value="Portionen" required />
+            <input
+              onclick="calculateIngredientQuantity()"
+              class="inputbtn"
+              type="submit"
+              value="Portionen"
+              required
+            />
           </form>
           <div>
             <table cellspacing="0">
-              <tr data-quantity="2" data-unit="">
-                <td class="data-quantity">2</td>
-                <td class="ingredient">Hähnchenbrust</td>
+              <tr>
+                <td id="ingredient-quantity">2</td>
+                <td>Hähnchenbrust</td>
               </tr>
-              <tr data-quantity="300" data-unit="g">
-                <td class="data-quantity">300g</td>
-                <td class="ingredient">Rigatoni</td>
+              <tr>
+                <td id="ingredient-quantity">300</td>
+                <td>Gramm Rigatoni</td>
               </tr>
-              <tr data-quantity="50" data-unit="g">
-                <td class="data-quantity">50g</td>
-                <td class="ingredient">Kapern</td>
+              <tr>
+                <td id="ingredient-quantity">50</td>
+                <td>Gramm Kapern</td>
               </tr>
-              <tr data-quantity="1" data-unit="">
-                <td class="data-quantity">1</td>
-                <td class="ingredient">Zitrone</td>
+              <tr>
+                <td id="ingredient-quantity">1</td>
+                <td>Zitrone</td>
               </tr>
-              <tr data-quantity="2" data-unit="">
-                <td class="data-quantity">2</td>
-                <td class="ingredient">Chilis</td>
+              <tr>
+                <td id="ingredient-quantity">2</td>
+                <td>Chilis</td>
               </tr>
-              <tr data-quantity="2" data-unit="">
-                <td class="data-quantity">2</td>
-                <td class="ingredient">Schalotten</td>
+              <tr>
+                <td id="ingredient-quantity">2</td>
+                <td>Schalotten</td>
               </tr>
-              <tr data-quantity="1" data-unit="Zehe">
-                <td class="data-quantity">1 Zehe</td>
-                <td class="ingredient">Knoblauch</td>
+              <tr>
+                <td id="ingredient-quantity">1</td>
+                <td>Zehe Knoblauch</td>
               </tr>
-              <tr data-quantity="100" data-unit="ml">
-                <td class="data-quantity">100ml</td>
-                <td class="ingredient">Weißwein</td>
+              <tr>
+                <td id="ingredient-quantity">100</td>
+                <td>ml Weißwein</td>
               </tr>
-              <tr data-quantity="100" data-unit="ml">
-                <td class="data-quantity">100ml</td>
-                <td class="ingredient">Hühnerfond</td>
+              <tr>
+                <td id="ingredient-quantity">100</td>
+                <td>ml Hühnerfond</td>
               </tr>
-              <tr data-quantity="150" data-unit="g">
-                <td class="data-quantity">150g</td>
-                <td class="ingredient">Butter</td>
+              <tr>
+                <td id="ingredient-quantity">150</td>
+                <td>Gramm Butter</td>
               </tr>
-              <tr data-quantity="50" data-unit="g">
-                <td class="data-quantity">50g</td>
-                <td class="ingredient">geriebener Parmesan</td>
+              <tr>
+                <td id="ingredient-quantity">50</td>
+                <td>Gramm geriebener Parmesan</td>
               </tr>
-              <tr data-quantity="" data-unit="">
-                <td class="data-quantity"></td>
-                <td class="ingredient">Mehl</td>
+              <tr>
+                <td id="ingredient-quantity"></td>
+                <td>Mehl</td>
               </tr>
-              <tr data-quantity="" data-unit="">
-                <td class="data-quantity"></td>
-                <td class="ingredient">Petersilie</td>
+              <tr>
+                <td id="ingredient-quantity"></td>
+                <td>Petersilie</td>
               </tr>
-              <tr data-quantity="" data-unit="">
-                <td class="data-quantity"></td>
-                <td class="ingredient">Salz & Pfeffer</td>
+              <tr>
+                <td id="ingredient-quantity"></td>
+                <td>Salz & Pfeffer</td>
               </tr>
             </table>
           </div>
