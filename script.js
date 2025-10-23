@@ -1,30 +1,22 @@
-// let inputnmb = document.getElementById("portions");
-
-// function calculateIngredientQuantitiy() {
-//   const ingredientAmount = document.querySelectorAll("ingredient-quantity");
-//   const portionsNumber = document.getElementById(inputnmb.value);
-//   fetch("./data.json").then((response) => {
-//     return response.json();
-//   });
-//   for (let i = 0; i < 13; i++) {
-//     let contentRef = document.getElementById("ingredient-quantity");
-//     contentRef.innerHTML = "";
-//     console.log(i);
-//   }
-// }
-
-// for (let index = 0; index < ingredientAmount.length; index++) {
-//   const element = ingredientAmount[index];
-// }
-
-//
-//
-//
-
-let multiplier = document.getElementById("portions");
-
-function calculateIngredientQuantitiy() {
-  const ingredientAmount = document.querySelectorAll("ingredient-quantity");
-  let result = ingredientAmount * multiplier;
-  return result;
+function calculateIngredientQuantity() {
+  let multiplier = parseFloat(document.getElementById("portions").value);
+  console.log(multiplier);
+  const rows = document.getElementsByClassName("ingredient-quantity");
+  const defaultPortions = document
+    .getElementById("portions")
+    .getAttribute("placeholder");
+  if (multiplier < 0) {
+    multiplier = 1;
+    document.getElementById("portions").value = 1;
+  }
+  if (multiplier > 20) {
+    multiplier = 20;
+    document.getElementById("portions").value = 20;
+  }
+  for (let index = 0; index < rows.length; index++) {
+    const defaultIngredientAmount =
+      parseFloat(rows[index].getAttribute("placeholder")) || 0;
+    rows[index].textContent =
+      (defaultIngredientAmount / defaultPortions) * multiplier;
+  }
 }

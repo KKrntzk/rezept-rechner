@@ -11,7 +11,7 @@
       href="./Infos/img/favicon.png"
       type="image/x-icon"
     />
-    <script src="script.js"></script>
+       <script src="script.js"></script>
   </head>
   <body>
     <div class="abc">
@@ -100,72 +100,72 @@
               id="portions"
               type="number"
               min="1"
+              max="20"
               required
-            />
+            >
             <input
-              onclick="calculateIngredientQuantity()"
               class="inputbtn"
-              type="submit"
+              type="button"
               value="Portionen"
-              required
-            />
+              onclick="calculateIngredientQuantity()">
+          </input>
           </form>
           <div>
             <table cellspacing="0">
               <tr>
-                <td id="ingredient-quantity">2</td>
+                <td class="ingredient-quantity" placeholder="2">2</td>
                 <td>Hähnchenbrust</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">300</td>
+                <td class="ingredient-quantity" placeholder="300">300</td>
                 <td>Gramm Rigatoni</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">50</td>
+                <td class="ingredient-quantity" placeholder="50">50</td>
                 <td>Gramm Kapern</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">1</td>
+                <td class="ingredient-quantity" placeholder="1">1</td>
                 <td>Zitrone</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">2</td>
+                <td class="ingredient-quantity" placeholder="2">2</td>
                 <td>Chilis</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">2</td>
+                <td class="ingredient-quantity" placeholder="2">2</td>
                 <td>Schalotten</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">1</td>
+                <td class="ingredient-quantity" placeholder="1">1</td>
                 <td>Zehe Knoblauch</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">100</td>
+                <td class="ingredient-quantity" placeholder="100">100</td>
                 <td>ml Weißwein</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">100</td>
+                <td class="ingredient-quantity" placeholder="100">100</td>
                 <td>ml Hühnerfond</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">150</td>
+                <td class="ingredient-quantity" placeholder="150">150</td>
                 <td>Gramm Butter</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity">50</td>
+                <td class="ingredient-quantity" placeholder="50">50</td>
                 <td>Gramm geriebener Parmesan</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity"></td>
+                <td ></td>
                 <td>Mehl</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity"></td>
+                <td ></td>
                 <td>Petersilie</td>
               </tr>
               <tr>
-                <td id="ingredient-quantity"></td>
+                <td ></td>
                 <td>Salz & Pfeffer</td>
               </tr>
             </table>
@@ -224,5 +224,6 @@
           alt="Instagram Logo"
       /></a>
     </footer>
+ 
   </body>
 </html>
